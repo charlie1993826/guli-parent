@@ -1,0 +1,19 @@
+server: 
+  port: 7001
+
+eureka:
+  instance: 
+    hostname: eureka7001.com #服务注册中心IP地址
+  client: 
+    register-with-eureka: false #是否向服务注册中心注册自己
+    fetch-registry: false #表示自己就是注册中心，我只是维护服务不需要去检索服务
+    service-url: #服务注册中心的配置内容，指定服务注册中心的位置      defaultZone: http://localhost:${server.port}/eureka/
+logging:
+  level:
+    com.charlie: trace
+  path: spring/log
+  pattern:
+    #在控制台输出的格式
+    file: d{yyyy-MM-dd} === [%thread] === %-5level === %logger{50} === %msg%n
+    #在文件中输出的格式
+    #console: d{yyyy-MM-dd} [%thread] %-5level %logger{50} - %msg%n
