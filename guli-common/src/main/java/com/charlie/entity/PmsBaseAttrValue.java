@@ -7,53 +7,53 @@ import java.io.Serializable;
  * @return
  */
 public class PmsBaseAttrValue implements Serializable {
-    /**
+	/**
 	 * 
 	 */
 	private static final long serialVersionUID = -8699156712212781608L;
 	private String id;
-    private String valueName;
-    private String attrId;
-    private String isEnabled;
-    private String urlParam;
+	private String valueName;
+	private String attrId;
+	private String isEnabled;
+	private String urlParam;
 
-    public String getId() {
-        return id;
-    }
+	public String getId() {
+		return id;
+	}
 
-    public void setId(String id) {
-        this.id = id;
-    }
+	public void setId(String id) {
+		this.id = id;
+	}
 
-    public String getValueName() {
-        return valueName;
-    }
+	public String getValueName() {
+		return valueName;
+	}
 
-    public void setValueName(String valueName) {
-        this.valueName = valueName;
-    }
+	public void setValueName(String valueName) {
+		this.valueName = valueName;
+	}
 
-    public String getAttrId() {
-        return attrId;
-    }
+	public String getAttrId() {
+		return attrId;
+	}
 
-    public void setAttrId(String attrId) {
-        this.attrId = attrId;
-    }
+	public void setAttrId(String attrId) {
+		this.attrId = attrId;
+	}
 
-    public String getIsEnabled() {
-        return isEnabled;
-    }
+	public String getIsEnabled() {
+		return isEnabled;
+	}
 
-    public void setIsEnabled(String isEnabled) {
-        this.isEnabled = isEnabled;
-    }
+	public void setIsEnabled(String isEnabled) {
+		this.isEnabled = isEnabled;
+	}
 
-    public String getUrlParam() {
-        return urlParam;
-    }
+	public String getUrlParam() {
+		return urlParam;
+	}
 
-    public void setUrlParam(String urlParam) {
-        this.urlParam = urlParam;
-    }
+	public void setUrlParam(String urlParam) {
+		this.urlParam = urlParam;
+	}
 }

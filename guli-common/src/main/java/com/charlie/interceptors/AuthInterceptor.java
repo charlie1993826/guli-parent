@@ -14,6 +14,12 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.charlie.annotation.CheckoutLogin;
 
+/**
+ * 登陆验证的拦截器,查询当前操作的用户是否登陆
+ * 
+ * @author charlie
+ *
+ */
 @Component
 public class AuthInterceptor implements HandlerInterceptor {
 
@@ -24,27 +30,28 @@ public class AuthInterceptor implements HandlerInterceptor {
 			throws Exception {
 
 		log.info("----------------拦截器生效----------------");
-		if(handler instanceof HandlerMethod) {
+		if (handler instanceof HandlerMethod) {
 			/**
 			 * 获取拦截的方法
 			 */
 			Method method = ((HandlerMethod) handler).getMethod();
 			/**
-			 * 判断该方法	/类是否被@CheckoutLogin注解修饰
+			 * 判断该方法 /类是否被@CheckoutLogin注解修饰
 			 */
-			if(AnnotatedElementUtils.isAnnotated(method, CheckoutLogin.class)) {
-				
+			if (AnnotatedElementUtils.isAnnotated(method, CheckoutLogin.class)) {
+
 				CheckoutLogin checkoutLogin = method.getAnnotation(CheckoutLogin.class);
 				/**
 				 * 如果一个方法里面没有这个注解的话，那么就不用拦截
 				 */
-				if(checkoutLogin == null) return true;
+				if (checkoutLogin == null)
+					return true;
 				/**
 				 * 如果这个方法里面有这个注解的话，那么进行拦截，如果里面这个属性方法的值是true的话，那么就要做相应的处理
 				 */
-				if(checkoutLogin.loginfiter() == true) {
-					log.info(((HandlerMethod) handler).getBeanType() 
-							+ "这个类中的这个：" + method.getName() + "方法已经被拦截，准备跳转到失败页面");
+				if (checkoutLogin.loginfiter() == true) {
+					log.info(((HandlerMethod) handler).getBeanType() + "这个类中的这个：" + method.getName()
+							+ "方法已经被拦截，准备跳转到失败页面");
 				}
 			}
 		}

@@ -1,6 +1,5 @@
 package com.charlie.entity;
 
-
 import java.io.Serializable;
 
 /**
@@ -9,47 +8,47 @@ import java.io.Serializable;
  */
 public class PmsProductImage implements Serializable {
 
-    /**
+	/**
 	 * 
 	 */
 	private static final long serialVersionUID = -5716606145718235629L;
 	private String id;
-    private String productId;
-    private String imgName;
-    private String imgUrl;
+	private String productId;
+	private String imgName;
+	private String imgUrl;
 
-    public PmsProductImage() {
-    }
+	public PmsProductImage() {
+	}
 
-    public String getId() {
-        return id;
-    }
+	public String getId() {
+		return id;
+	}
 
-    public void setId(String id) {
-        this.id = id;
-    }
+	public void setId(String id) {
+		this.id = id;
+	}
 
-    public String getProductId() {
-        return productId;
-    }
+	public String getProductId() {
+		return productId;
+	}
 
-    public void setProductId(String productId) {
-        this.productId = productId;
-    }
+	public void setProductId(String productId) {
+		this.productId = productId;
+	}
 
-    public String getImgName() {
-        return imgName;
-    }
+	public String getImgName() {
+		return imgName;
+	}
 
-    public void setImgName(String imgName) {
-        this.imgName = imgName;
-    }
+	public void setImgName(String imgName) {
+		this.imgName = imgName;
+	}
 
-    public String getImgUrl() {
-        return imgUrl;
-    }
+	public String getImgUrl() {
+		return imgUrl;
+	}
 
-    public void setImgUrl(String imgUrl) {
-        this.imgUrl = imgUrl;
-    }
+	public void setImgUrl(String imgUrl) {
+		this.imgUrl = imgUrl;
+	}
 }
