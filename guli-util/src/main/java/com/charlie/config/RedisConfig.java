@@ -58,7 +58,7 @@ public class RedisConfig {
 	@Bean
 	public JedisPool getInstance() {
 
-		log.info("正在创建redis连接池，redis的地址是:" + host + ",端口号是:" + port);
+		log.info("正在创建Redis连接池，redis的地址是:" + host + ",端口号是:" + port);
 
 		JedisPoolConfig jedisPoolConfig = new JedisPoolConfig();
 
@@ -74,7 +74,7 @@ public class RedisConfig {
 
 		jedisPoolConfig.setTestOnReturn(Boolean.valueOf(true)); // #jedis调用returnObject方法时，是否进行有效检查
 
-		log.info("连接池配置成功，最大连接数为1000，最大空闲连接数为200，最小空闲链接数0，最大的阻塞连接时间10000");
+		log.info("Redis连接池配置成功，最大连接数为" + maxActive + "，最大空闲连接数为" + maxIdle + "，最小空闲链接数" + minIdle + "，最大的阻塞连接时间" + maxWait + "");
 
 		return new JedisPool(jedisPoolConfig, host, port, timeout);
 	}

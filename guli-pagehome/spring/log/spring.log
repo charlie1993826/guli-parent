@@ -1441,3 +1441,120 @@ d{yyyy-MM-dd} === [DiscoveryClient-InstanceInfoReplicator-0] === INFO  === com.n
 d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor === Shutting down ExecutorService 'applicationTaskExecutor'
 d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.util.concurrent.ShutdownEnabledTimer === Shutdown hook removed for: NFLoadBalancer-PingTimer-guli-page
 d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.discovery.DiscoveryClient === Shutting down DiscoveryClient ...
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.charlie.ApplicationPageHome === No active profile set, falling back to default profiles: default
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.springframework.cloud.context.scope.GenericScope === BeanFactory id=75f50b76-fce3-31d4-a642-12407a7a84f5
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker === Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$78c94977] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat initialized with port(s): 80 (http)
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.apache.catalina.core.StandardService === Starting service [Tomcat]
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.apache.catalina.core.StandardEngine === Starting Servlet engine: [Apache Tomcat/9.0.21]
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring embedded WebApplicationContext
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.springframework.web.context.ContextLoader === Root WebApplicationContext: initialization completed in 1438 ms
+d{yyyy-MM-dd} === [restartedMain] === WARN  === o.s.b.d.autoconfigure.OptionalLiveReloadServer === Unable to start LiveReload server
+d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.config.sources.URLConfigurationSource === No URLs will be polled as dynamic configuration sources.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.sources.URLConfigurationSource === To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.config.sources.URLConfigurationSource === No URLs will be polled as dynamic configuration sources.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.sources.URLConfigurationSource === To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor === Initializing ExecutorService 'applicationTaskExecutor'
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.cloud.netflix.eureka.InstanceInfoFactory === Setting initial instance status as: STARTING
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Initializing Eureka in region us-east-1
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using JSON encoding codec LegacyJacksonJson
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using JSON decoding codec LegacyJacksonJson
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using XML encoding codec XStreamXml
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using XML decoding codec XStreamXml
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.d.shared.resolver.aws.ConfigClusterResolver === Resolving eureka endpoints via configuration
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Disable delta property : false
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Single vip registry refresh property : null
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Force full registry fetch : false
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Application is null : false
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Registered Applications size is zero : true
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Application version is -1: true
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Getting all instance registry info from the eureka server
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === The response status is 200
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Starting heartbeat executor: renew interval is: 30
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.InstanceInfoReplicator === InstanceInfoReplicator onDemand update allowed rate per min is 4
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Discovery Client initialized at timestamp 1577518997935 with initial instances count: 1
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.n.e.serviceregistry.EurekaServiceRegistry === Registering application GULI-PAGEHOME with eureka with status UP
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Saw local status change event StatusChangeEvent [timestamp=1577518997939, current=UP, previous=STARTING]
+d{yyyy-MM-dd} === [DiscoveryClient-InstanceInfoReplicator-0] === INFO  === com.netflix.discovery.DiscoveryClient === DiscoveryClient_GULI-PAGEHOME/page-8001: registering service...
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat started on port(s): 80 (http) with context path ''
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.n.e.s.EurekaAutoServiceRegistration === Updating port to 80
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.charlie.ApplicationPageHome === Started ApplicationPageHome in 4.516 seconds (JVM running for 5.263)
+d{yyyy-MM-dd} === [DiscoveryClient-InstanceInfoReplicator-0] === INFO  === com.netflix.discovery.DiscoveryClient === DiscoveryClient_GULI-PAGEHOME/page-8001 - registration status: 204
+d{yyyy-MM-dd} === [http-nio-80-exec-2] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring DispatcherServlet 'dispatcherServlet'
+d{yyyy-MM-dd} === [http-nio-80-exec-2] === INFO  === org.springframework.web.servlet.DispatcherServlet === Initializing Servlet 'dispatcherServlet'
+d{yyyy-MM-dd} === [http-nio-80-exec-2] === INFO  === org.springframework.web.servlet.DispatcherServlet === Completed initialization in 9 ms
+d{yyyy-MM-dd} === [http-nio-80-exec-6] === INFO  === com.netflix.config.ChainedDynamicProperty === Flipping property: guli-page.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+d{yyyy-MM-dd} === [http-nio-80-exec-6] === INFO  === com.netflix.util.concurrent.ShutdownEnabledTimer === Shutdown hook installed for: NFLoadBalancer-PingTimer-guli-page
+d{yyyy-MM-dd} === [http-nio-80-exec-6] === INFO  === com.netflix.loadbalancer.BaseLoadBalancer === Client: guli-page instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=guli-page,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+d{yyyy-MM-dd} === [http-nio-80-exec-6] === INFO  === c.n.loadbalancer.DynamicServerListLoadBalancer === Using serverListUpdater PollingServerListUpdater
+d{yyyy-MM-dd} === [http-nio-80-exec-6] === INFO  === com.netflix.config.ChainedDynamicProperty === Flipping property: guli-page.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+d{yyyy-MM-dd} === [http-nio-80-exec-6] === INFO  === c.n.loadbalancer.DynamicServerListLoadBalancer === DynamicServerListLoadBalancer for client guli-page initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=guli-page,current list of Servers=[192.168.43.110:8001],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.43.110:8001;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@24190802
+d{yyyy-MM-dd} === [PollingServerListUpdater-0] === INFO  === com.netflix.config.ChainedDynamicProperty === Flipping property: guli-page.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin === Application shutdown requested.
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.c.n.e.serviceregistry.EurekaServiceRegistry === Unregistering application GULI-PAGEHOME with eureka with status DOWN
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === WARN  === com.netflix.discovery.DiscoveryClient === Saw local status change event StatusChangeEvent [timestamp=1577519062636, current=DOWN, previous=UP]
+d{yyyy-MM-dd} === [DiscoveryClient-InstanceInfoReplicator-0] === INFO  === com.netflix.discovery.DiscoveryClient === DiscoveryClient_GULI-PAGEHOME/page-8001: registering service...
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor === Shutting down ExecutorService 'applicationTaskExecutor'
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.util.concurrent.ShutdownEnabledTimer === Shutdown hook removed for: NFLoadBalancer-PingTimer-guli-page
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.discovery.DiscoveryClient === Shutting down DiscoveryClient ...
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.charlie.ApplicationPageHome === No active profile set, falling back to default profiles: default
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.springframework.cloud.context.scope.GenericScope === BeanFactory id=75f50b76-fce3-31d4-a642-12407a7a84f5
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker === Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a0a3f22d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat initialized with port(s): 80 (http)
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.apache.catalina.core.StandardService === Starting service [Tomcat]
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.apache.catalina.core.StandardEngine === Starting Servlet engine: [Apache Tomcat/9.0.21]
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring embedded WebApplicationContext
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.springframework.web.context.ContextLoader === Root WebApplicationContext: initialization completed in 1437 ms
+d{yyyy-MM-dd} === [restartedMain] === WARN  === o.s.b.d.autoconfigure.OptionalLiveReloadServer === Unable to start LiveReload server
+d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.config.sources.URLConfigurationSource === No URLs will be polled as dynamic configuration sources.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.sources.URLConfigurationSource === To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.config.sources.URLConfigurationSource === No URLs will be polled as dynamic configuration sources.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.sources.URLConfigurationSource === To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor === Initializing ExecutorService 'applicationTaskExecutor'
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.cloud.netflix.eureka.InstanceInfoFactory === Setting initial instance status as: STARTING
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Initializing Eureka in region us-east-1
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using JSON encoding codec LegacyJacksonJson
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using JSON decoding codec LegacyJacksonJson
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using XML encoding codec XStreamXml
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using XML decoding codec XStreamXml
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.d.shared.resolver.aws.ConfigClusterResolver === Resolving eureka endpoints via configuration
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Disable delta property : false
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Single vip registry refresh property : null
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Force full registry fetch : false
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Application is null : false
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Registered Applications size is zero : true
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Application version is -1: true
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Getting all instance registry info from the eureka server
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === The response status is 200
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Starting heartbeat executor: renew interval is: 30
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.InstanceInfoReplicator === InstanceInfoReplicator onDemand update allowed rate per min is 4
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Discovery Client initialized at timestamp 1577520748155 with initial instances count: 1
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.n.e.serviceregistry.EurekaServiceRegistry === Registering application GULI-PAGEHOME with eureka with status UP
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Saw local status change event StatusChangeEvent [timestamp=1577520748158, current=UP, previous=STARTING]
+d{yyyy-MM-dd} === [DiscoveryClient-InstanceInfoReplicator-0] === INFO  === com.netflix.discovery.DiscoveryClient === DiscoveryClient_GULI-PAGEHOME/page-8001: registering service...
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat started on port(s): 80 (http) with context path ''
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.n.e.s.EurekaAutoServiceRegistration === Updating port to 80
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.charlie.ApplicationPageHome === Started ApplicationPageHome in 4.477 seconds (JVM running for 5.15)
+d{yyyy-MM-dd} === [DiscoveryClient-InstanceInfoReplicator-0] === INFO  === com.netflix.discovery.DiscoveryClient === DiscoveryClient_GULI-PAGEHOME/page-8001 - registration status: 204
+d{yyyy-MM-dd} === [http-nio-80-exec-1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring DispatcherServlet 'dispatcherServlet'
+d{yyyy-MM-dd} === [http-nio-80-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet === Initializing Servlet 'dispatcherServlet'
+d{yyyy-MM-dd} === [http-nio-80-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet === Completed initialization in 8 ms
+d{yyyy-MM-dd} === [http-nio-80-exec-2] === INFO  === com.netflix.config.ChainedDynamicProperty === Flipping property: guli-page.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+d{yyyy-MM-dd} === [http-nio-80-exec-2] === INFO  === com.netflix.util.concurrent.ShutdownEnabledTimer === Shutdown hook installed for: NFLoadBalancer-PingTimer-guli-page
+d{yyyy-MM-dd} === [http-nio-80-exec-2] === INFO  === com.netflix.loadbalancer.BaseLoadBalancer === Client: guli-page instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=guli-page,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+d{yyyy-MM-dd} === [http-nio-80-exec-2] === INFO  === c.n.loadbalancer.DynamicServerListLoadBalancer === Using serverListUpdater PollingServerListUpdater
+d{yyyy-MM-dd} === [http-nio-80-exec-2] === INFO  === com.netflix.config.ChainedDynamicProperty === Flipping property: guli-page.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+d{yyyy-MM-dd} === [http-nio-80-exec-2] === INFO  === c.n.loadbalancer.DynamicServerListLoadBalancer === DynamicServerListLoadBalancer for client guli-page initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=guli-page,current list of Servers=[192.168.0.105:8001],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.0.105:8001;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@6ab0ee9f
+d{yyyy-MM-dd} === [PollingServerListUpdater-0] === INFO  === com.netflix.config.ChainedDynamicProperty === Flipping property: guli-page.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin === Application shutdown requested.
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.c.n.e.serviceregistry.EurekaServiceRegistry === Unregistering application GULI-PAGEHOME with eureka with status DOWN
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === WARN  === com.netflix.discovery.DiscoveryClient === Saw local status change event StatusChangeEvent [timestamp=1577520773761, current=DOWN, previous=UP]
+d{yyyy-MM-dd} === [DiscoveryClient-InstanceInfoReplicator-0] === INFO  === com.netflix.discovery.DiscoveryClient === DiscoveryClient_GULI-PAGEHOME/page-8001: registering service...
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor === Shutting down ExecutorService 'applicationTaskExecutor'
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.util.concurrent.ShutdownEnabledTimer === Shutdown hook removed for: NFLoadBalancer-PingTimer-guli-page
+d{yyyy-MM-dd} === [DiscoveryClient-InstanceInfoReplicator-0] === INFO  === com.netflix.discovery.DiscoveryClient === DiscoveryClient_GULI-PAGEHOME/page-8001 - registration status: 204
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.discovery.DiscoveryClient === Shutting down DiscoveryClient ...
