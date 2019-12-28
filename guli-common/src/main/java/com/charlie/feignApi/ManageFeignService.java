@@ -13,7 +13,7 @@ import com.charlie.entity.PmsBaseCatalog1;
 import com.charlie.entity.PmsBaseCatalog2;
 import com.charlie.entity.PmsBaseCatalog3;
 import com.charlie.entity.PmsProductInfo;
-import com.charlie.util.ResultEntity;
+import com.charlie.result.ResultEntity;
 
 @FeignClient(value = "manage-server")
 public interface ManageFeignService {

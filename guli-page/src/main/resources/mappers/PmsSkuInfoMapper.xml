@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.charlie.mapper.PmsSkuInfoMapper">
+
+	<select id="selectAll" resultMap="pmsSkuInfoMap">
+		select * from pms_sku_info
+	</select>
+
+
+	<resultMap type="com.charlie.entity.PmsSkuInfo" id="pmsSkuInfoMap">
+		<id property="id" column="id"/>
+		<result property="productId" column="product_id"/>
+		<result property="price" column="price"/>
+		<result property="skuName" column="sku_name"/>
+		<result property="weight" column="weight"/>
+		<result property="skuDesc" column="sku_desc"/>
+		<result property="catalog3Id" column="catalog3_id"/>
+		<result property="skuDefaultImg" column="sku_default_img"/>
+	</resultMap>
+</mapper>

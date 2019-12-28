@@ -1,4 +1,4 @@
-package com.charlie.util;
+package com.charlie.result;
 
 /**
  * 整个项目的Ajax请求都使用这个类转换的JSON格式作为响应数据。 这样整个项目的Ajax响应就有了统一规范。

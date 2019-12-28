@@ -51,5 +51,7 @@
 		<module>guli-common</module>
 		<module>guli-eureka</module>
 		<module>guli-pagehome</module>
+		<module>guli-page</module>
+		<module>guli-util</module>
 	</modules>
 </project>
