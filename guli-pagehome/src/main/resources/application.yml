@@ -1,26 +1,0 @@
-server:
-  port: 80
-# 日志级别
-logging:
-  level:
-    root: info
-    com.charlie: trace
-  path: spring/log
-  pattern:
-    #在控制台输出的格式
-    file: d{yyyy-MM-dd} === [%thread] === %-5level === %logger{50} === %msg%n
-    #在文件中输出的格式
-    #console: d{yyyy-MM-dd} [%thread] %-5level %logger{50} - %msg%n
-
-spring:
-  application:
-    name: guli-pagehome
-    
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka7001.com:7001/eureka
-  instance:
-    instance-id: pagehome-80
-    prefer-ip-address: true
-ribbon:  eureka:    enabled: true
