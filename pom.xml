@@ -53,5 +53,6 @@
 		<module>guli-pagehome</module>
 		<module>guli-page</module>
 		<module>guli-util</module>
+		<module>guli-payment</module>
 	</modules>
 </project>
