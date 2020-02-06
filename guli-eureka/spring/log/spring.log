@@ -1,15 +1,15 @@
 d{yyyy-MM-dd} === [restartedMain] === INFO  === com.charlie.ApplicationEureka === No active profile set, falling back to default profiles: default
 d{yyyy-MM-dd} === [restartedMain] === WARN  === o.springframework.boot.actuate.endpoint.EndpointId === Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
 d{yyyy-MM-dd} === [restartedMain] === INFO  === o.springframework.cloud.context.scope.GenericScope === BeanFactory id=203618ff-903e-3477-b8e5-b771090b31a5
-d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker === Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ebb359aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker === Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3dfd444c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat initialized with port(s): 7001 (http)
 d{yyyy-MM-dd} === [restartedMain] === INFO  === org.apache.catalina.core.StandardService === Starting service [Tomcat]
 d{yyyy-MM-dd} === [restartedMain] === INFO  === org.apache.catalina.core.StandardEngine === Starting Servlet engine: [Apache Tomcat/9.0.21]
 d{yyyy-MM-dd} === [restartedMain] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring embedded WebApplicationContext
-d{yyyy-MM-dd} === [restartedMain] === INFO  === org.springframework.web.context.ContextLoader === Root WebApplicationContext: initialization completed in 7105 ms
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.springframework.web.context.ContextLoader === Root WebApplicationContext: initialization completed in 1376 ms
 d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.config.sources.URLConfigurationSource === No URLs will be polled as dynamic configuration sources.
 d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.sources.URLConfigurationSource === To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.DynamicPropertyFactory === DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6adf56d2
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.DynamicPropertyFactory === DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@213252ec
 d{yyyy-MM-dd} === [restartedMain] === INFO  === c.s.j.server.impl.application.WebApplicationImpl === Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
 d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using JSON encoding codec LegacyJacksonJson
 d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using JSON decoding codec LegacyJacksonJson
@@ -23,7 +23,7 @@ d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.b.d.autoconfigure.OptionalLi
 d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.cloud.netflix.eureka.InstanceInfoFactory === Setting initial instance status as: STARTING
 d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Initializing Eureka in region us-east-1
 d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Client configured to neither register nor query for data.
-d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Discovery Client initialized at timestamp 1580799298953 with initial instances count: 0
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Discovery Client initialized at timestamp 1581000503369 with initial instances count: 0
 d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.eureka.DefaultEurekaServerContext === Initializing ...
 d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.eureka.cluster.PeerEurekaNodes === The replica size seems to be empty. Check the route 53 DNS Registry
 d{yyyy-MM-dd} === [restartedMain] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Finished initializing remote region registries. All known remote regions: []
@@ -41,32 +41,25 @@ d{yyyy-MM-dd} === [Thread-17] === INFO  === c.n.eureka.registry.PeerAwareInstanc
 d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.n.e.s.EurekaServerInitializerConfiguration === Started Eureka Server
 d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat started on port(s): 7001 (http) with context path ''
 d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.n.e.s.EurekaAutoServiceRegistration === Updating port to 7001
-d{yyyy-MM-dd} === [restartedMain] === INFO  === com.charlie.ApplicationEureka === Started ApplicationEureka in 16.554 seconds (JVM running for 19.234)
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.charlie.ApplicationEureka === Started ApplicationEureka in 4.48 seconds (JVM running for 5.063)
+d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
 d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring DispatcherServlet 'dispatcherServlet'
 d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet === Initializing Servlet 'dispatcherServlet'
-d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet === Completed initialization in 17 ms
+d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet === Completed initialization in 7 ms
+d{yyyy-MM-dd} === [http-nio-7001-exec-2] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAYMENT/page-8001 with status UP (replication=false)
+d{yyyy-MM-dd} === [http-nio-7001-exec-3] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAYMENT/page-8001 with status DOWN (replication=false)
+d{yyyy-MM-dd} === [http-nio-7001-exec-4] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Cancelled instance GULI-PAYMENT/page-8001 (replication=false)
 d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
-d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAGEHOME/page-8001 with status UP (replication=false)
-d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
-d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
-d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
-d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
-d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
-d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
-d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
-d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
-d{yyyy-MM-dd} === [Eureka-PeerNodesUpdater] === WARN  === com.netflix.eureka.cluster.PeerEurekaNodes === The replica size seems to be empty. Check the route 53 DNS Registry
+d{yyyy-MM-dd} === [http-nio-7001-exec-7] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAYMENT/page-8001 with status UP (replication=false)
+d{yyyy-MM-dd} === [http-nio-7001-exec-8] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAYMENT/page-8001 with status DOWN (replication=false)
+d{yyyy-MM-dd} === [http-nio-7001-exec-9] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Cancelled instance GULI-PAYMENT/page-8001 (replication=false)
 d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
 d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
+d{yyyy-MM-dd} === [http-nio-7001-exec-2] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAYMENT/page-8002 with status UP (replication=false)
+d{yyyy-MM-dd} === [http-nio-7001-exec-3] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAYMENT/page-8002 with status DOWN (replication=false)
+d{yyyy-MM-dd} === [http-nio-7001-exec-4] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Cancelled instance GULI-PAYMENT/page-8002 (replication=false)
 d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
 d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
-d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
-d{yyyy-MM-dd} === [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] === INFO  === c.n.eureka.registry.PeerAwareInstanceRegistryImpl === Current renewal threshold is : 3
-d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
-d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
-d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
-d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
-d{yyyy-MM-dd} === [http-nio-7001-exec-8] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAGEHOME/page-8001 with status DOWN (replication=false)
 d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
 d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin === Application shutdown requested.
 d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.c.n.e.serviceregistry.EurekaServiceRegistry === Unregistering application UNKNOWN with eureka with status DOWN
@@ -80,15 +73,15 @@ d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.a.c.core.Con
 d{yyyy-MM-dd} === [restartedMain] === INFO  === com.charlie.ApplicationEureka === No active profile set, falling back to default profiles: default
 d{yyyy-MM-dd} === [restartedMain] === WARN  === o.springframework.boot.actuate.endpoint.EndpointId === Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
 d{yyyy-MM-dd} === [restartedMain] === INFO  === o.springframework.cloud.context.scope.GenericScope === BeanFactory id=203618ff-903e-3477-b8e5-b771090b31a5
-d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker === Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2252b3a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker === Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$35042e64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat initialized with port(s): 7001 (http)
 d{yyyy-MM-dd} === [restartedMain] === INFO  === org.apache.catalina.core.StandardService === Starting service [Tomcat]
 d{yyyy-MM-dd} === [restartedMain] === INFO  === org.apache.catalina.core.StandardEngine === Starting Servlet engine: [Apache Tomcat/9.0.21]
 d{yyyy-MM-dd} === [restartedMain] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring embedded WebApplicationContext
-d{yyyy-MM-dd} === [restartedMain] === INFO  === org.springframework.web.context.ContextLoader === Root WebApplicationContext: initialization completed in 1525 ms
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.springframework.web.context.ContextLoader === Root WebApplicationContext: initialization completed in 1398 ms
 d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.config.sources.URLConfigurationSource === No URLs will be polled as dynamic configuration sources.
 d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.sources.URLConfigurationSource === To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.DynamicPropertyFactory === DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4ff337d8
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.DynamicPropertyFactory === DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@74cf609a
 d{yyyy-MM-dd} === [restartedMain] === INFO  === c.s.j.server.impl.application.WebApplicationImpl === Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
 d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using JSON encoding codec LegacyJacksonJson
 d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using JSON decoding codec LegacyJacksonJson
@@ -102,7 +95,7 @@ d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.b.d.autoconfigure.OptionalLi
 d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.cloud.netflix.eureka.InstanceInfoFactory === Setting initial instance status as: STARTING
 d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Initializing Eureka in region us-east-1
 d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Client configured to neither register nor query for data.
-d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Discovery Client initialized at timestamp 1580800759471 with initial instances count: 0
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Discovery Client initialized at timestamp 1581001691864 with initial instances count: 0
 d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.eureka.DefaultEurekaServerContext === Initializing ...
 d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.eureka.cluster.PeerEurekaNodes === The replica size seems to be empty. Check the route 53 DNS Registry
 d{yyyy-MM-dd} === [restartedMain] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Finished initializing remote region registries. All known remote regions: []
@@ -120,7 +113,12 @@ d{yyyy-MM-dd} === [Thread-17] === INFO  === c.n.eureka.registry.PeerAwareInstanc
 d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.n.e.s.EurekaServerInitializerConfiguration === Started Eureka Server
 d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat started on port(s): 7001 (http) with context path ''
 d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.n.e.s.EurekaAutoServiceRegistration === Updating port to 7001
-d{yyyy-MM-dd} === [restartedMain] === INFO  === com.charlie.ApplicationEureka === Started ApplicationEureka in 4.442 seconds (JVM running for 5.116)
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.charlie.ApplicationEureka === Started ApplicationEureka in 4.386 seconds (JVM running for 4.927)
+d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring DispatcherServlet 'dispatcherServlet'
+d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet === Initializing Servlet 'dispatcherServlet'
+d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet === Completed initialization in 7 ms
+d{yyyy-MM-dd} === [http-nio-7001-exec-2] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAYMENT/page-8002 with status UP (replication=false)
+d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
 d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin === Application shutdown requested.
 d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.c.n.e.serviceregistry.EurekaServiceRegistry === Unregistering application UNKNOWN with eureka with status DOWN
 d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.eureka.DefaultEurekaServerContext === Shutting down ...
@@ -129,3 +127,251 @@ d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.scheduling
 d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.discovery.DiscoveryClient === Shutting down DiscoveryClient ...
 d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.discovery.DiscoveryClient === Completed shut down of DiscoveryClient
 d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === org.apache.catalina.core.StandardService === Stopping service [Tomcat]
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Destroying Spring FrameworkServlet 'dispatcherServlet'
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.charlie.ApplicationEureka === No active profile set, falling back to default profiles: default
+d{yyyy-MM-dd} === [restartedMain] === WARN  === o.springframework.boot.actuate.endpoint.EndpointId === Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.springframework.cloud.context.scope.GenericScope === BeanFactory id=203618ff-903e-3477-b8e5-b771090b31a5
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker === Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8c1bc052] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat initialized with port(s): 7001 (http)
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.apache.catalina.core.StandardService === Starting service [Tomcat]
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.apache.catalina.core.StandardEngine === Starting Servlet engine: [Apache Tomcat/9.0.21]
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring embedded WebApplicationContext
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.springframework.web.context.ContextLoader === Root WebApplicationContext: initialization completed in 1417 ms
+d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.config.sources.URLConfigurationSource === No URLs will be polled as dynamic configuration sources.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.sources.URLConfigurationSource === To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.DynamicPropertyFactory === DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1f933fe6
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.s.j.server.impl.application.WebApplicationImpl === Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using JSON encoding codec LegacyJacksonJson
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using JSON decoding codec LegacyJacksonJson
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using XML encoding codec XStreamXml
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using XML decoding codec XStreamXml
+d{yyyy-MM-dd} === [restartedMain] === WARN  === o.s.c.netflix.archaius.ArchaiusAutoConfiguration === No spring.application.name found, defaulting to 'application'
+d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.config.sources.URLConfigurationSource === No URLs will be polled as dynamic configuration sources.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.sources.URLConfigurationSource === To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor === Initializing ExecutorService 'applicationTaskExecutor'
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.b.d.autoconfigure.OptionalLiveReloadServer === LiveReload server is running on port 35729
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.cloud.netflix.eureka.InstanceInfoFactory === Setting initial instance status as: STARTING
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Initializing Eureka in region us-east-1
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Client configured to neither register nor query for data.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Discovery Client initialized at timestamp 1581001871111 with initial instances count: 0
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.eureka.DefaultEurekaServerContext === Initializing ...
+d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.eureka.cluster.PeerEurekaNodes === The replica size seems to be empty. Check the route 53 DNS Registry
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Finished initializing remote region registries. All known remote regions: []
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.eureka.DefaultEurekaServerContext === Initialized
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.b.actuate.endpoint.web.EndpointLinksResolver === Exposing 2 endpoint(s) beneath base path '/actuator'
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.n.e.serviceregistry.EurekaServiceRegistry === Registering application UNKNOWN with eureka with status UP
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === Setting the eureka configuration..
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === Eureka data center value eureka.datacenter is not set, defaulting to default
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === Eureka environment value eureka.environment is not set, defaulting to test
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === isAws returned false
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === Initialized server context
+d{yyyy-MM-dd} === [Thread-17] === INFO  === c.n.eureka.registry.PeerAwareInstanceRegistryImpl === Got 1 instances from neighboring DS node
+d{yyyy-MM-dd} === [Thread-17] === INFO  === c.n.eureka.registry.PeerAwareInstanceRegistryImpl === Renew threshold is: 1
+d{yyyy-MM-dd} === [Thread-17] === INFO  === c.n.eureka.registry.PeerAwareInstanceRegistryImpl === Changing status to UP
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.n.e.s.EurekaServerInitializerConfiguration === Started Eureka Server
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat started on port(s): 7001 (http) with context path ''
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.n.e.s.EurekaAutoServiceRegistration === Updating port to 7001
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.charlie.ApplicationEureka === Started ApplicationEureka in 4.261 seconds (JVM running for 4.833)
+d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring DispatcherServlet 'dispatcherServlet'
+d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet === Initializing Servlet 'dispatcherServlet'
+d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet === Completed initialization in 6 ms
+d{yyyy-MM-dd} === [http-nio-7001-exec-2] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAYMENT/page-8002 with status UP (replication=false)
+d{yyyy-MM-dd} === [http-nio-7001-exec-3] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAYMENT/page-8002 with status DOWN (replication=false)
+d{yyyy-MM-dd} === [http-nio-7001-exec-4] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Cancelled instance GULI-PAYMENT/page-8002 (replication=false)
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin === Application shutdown requested.
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.c.n.e.serviceregistry.EurekaServiceRegistry === Unregistering application UNKNOWN with eureka with status DOWN
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.eureka.DefaultEurekaServerContext === Shutting down ...
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.eureka.DefaultEurekaServerContext === Shut down
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor === Shutting down ExecutorService 'applicationTaskExecutor'
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.discovery.DiscoveryClient === Shutting down DiscoveryClient ...
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.discovery.DiscoveryClient === Completed shut down of DiscoveryClient
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === org.apache.catalina.core.StandardService === Stopping service [Tomcat]
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Destroying Spring FrameworkServlet 'dispatcherServlet'
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.charlie.ApplicationEureka === No active profile set, falling back to default profiles: default
+d{yyyy-MM-dd} === [restartedMain] === WARN  === o.springframework.boot.actuate.endpoint.EndpointId === Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.springframework.cloud.context.scope.GenericScope === BeanFactory id=203618ff-903e-3477-b8e5-b771090b31a5
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker === Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$be82e984] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat initialized with port(s): 7001 (http)
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.apache.catalina.core.StandardService === Starting service [Tomcat]
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.apache.catalina.core.StandardEngine === Starting Servlet engine: [Apache Tomcat/9.0.21]
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring embedded WebApplicationContext
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.springframework.web.context.ContextLoader === Root WebApplicationContext: initialization completed in 1401 ms
+d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.config.sources.URLConfigurationSource === No URLs will be polled as dynamic configuration sources.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.sources.URLConfigurationSource === To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.DynamicPropertyFactory === DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@e08fdb1
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.s.j.server.impl.application.WebApplicationImpl === Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using JSON encoding codec LegacyJacksonJson
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using JSON decoding codec LegacyJacksonJson
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using XML encoding codec XStreamXml
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using XML decoding codec XStreamXml
+d{yyyy-MM-dd} === [restartedMain] === WARN  === o.s.c.netflix.archaius.ArchaiusAutoConfiguration === No spring.application.name found, defaulting to 'application'
+d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.config.sources.URLConfigurationSource === No URLs will be polled as dynamic configuration sources.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.sources.URLConfigurationSource === To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor === Initializing ExecutorService 'applicationTaskExecutor'
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.b.d.autoconfigure.OptionalLiveReloadServer === LiveReload server is running on port 35729
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.cloud.netflix.eureka.InstanceInfoFactory === Setting initial instance status as: STARTING
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Initializing Eureka in region us-east-1
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Client configured to neither register nor query for data.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Discovery Client initialized at timestamp 1581003636962 with initial instances count: 0
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.eureka.DefaultEurekaServerContext === Initializing ...
+d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.eureka.cluster.PeerEurekaNodes === The replica size seems to be empty. Check the route 53 DNS Registry
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Finished initializing remote region registries. All known remote regions: []
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.eureka.DefaultEurekaServerContext === Initialized
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.b.actuate.endpoint.web.EndpointLinksResolver === Exposing 2 endpoint(s) beneath base path '/actuator'
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.n.e.serviceregistry.EurekaServiceRegistry === Registering application UNKNOWN with eureka with status UP
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === Setting the eureka configuration..
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === Eureka data center value eureka.datacenter is not set, defaulting to default
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === Eureka environment value eureka.environment is not set, defaulting to test
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === isAws returned false
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === Initialized server context
+d{yyyy-MM-dd} === [Thread-17] === INFO  === c.n.eureka.registry.PeerAwareInstanceRegistryImpl === Got 1 instances from neighboring DS node
+d{yyyy-MM-dd} === [Thread-17] === INFO  === c.n.eureka.registry.PeerAwareInstanceRegistryImpl === Renew threshold is: 1
+d{yyyy-MM-dd} === [Thread-17] === INFO  === c.n.eureka.registry.PeerAwareInstanceRegistryImpl === Changing status to UP
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.n.e.s.EurekaServerInitializerConfiguration === Started Eureka Server
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat started on port(s): 7001 (http) with context path ''
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.n.e.s.EurekaAutoServiceRegistration === Updating port to 7001
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.charlie.ApplicationEureka === Started ApplicationEureka in 4.211 seconds (JVM running for 4.901)
+d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring DispatcherServlet 'dispatcherServlet'
+d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet === Initializing Servlet 'dispatcherServlet'
+d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet === Completed initialization in 6 ms
+d{yyyy-MM-dd} === [http-nio-7001-exec-2] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAYMENT/guli-8002 with status UP (replication=false)
+d{yyyy-MM-dd} === [http-nio-7001-exec-5] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAYMENT/guli-8002 with status DOWN (replication=false)
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin === Application shutdown requested.
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.c.n.e.serviceregistry.EurekaServiceRegistry === Unregistering application UNKNOWN with eureka with status DOWN
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.eureka.DefaultEurekaServerContext === Shutting down ...
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.eureka.DefaultEurekaServerContext === Shut down
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor === Shutting down ExecutorService 'applicationTaskExecutor'
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.discovery.DiscoveryClient === Shutting down DiscoveryClient ...
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.discovery.DiscoveryClient === Completed shut down of DiscoveryClient
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === org.apache.catalina.core.StandardService === Stopping service [Tomcat]
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Destroying Spring FrameworkServlet 'dispatcherServlet'
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.charlie.ApplicationEureka === No active profile set, falling back to default profiles: default
+d{yyyy-MM-dd} === [restartedMain] === WARN  === o.springframework.boot.actuate.endpoint.EndpointId === Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.springframework.cloud.context.scope.GenericScope === BeanFactory id=203618ff-903e-3477-b8e5-b771090b31a5
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker === Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$46bf8ae6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat initialized with port(s): 7001 (http)
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.apache.catalina.core.StandardService === Starting service [Tomcat]
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.apache.catalina.core.StandardEngine === Starting Servlet engine: [Apache Tomcat/9.0.21]
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring embedded WebApplicationContext
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.springframework.web.context.ContextLoader === Root WebApplicationContext: initialization completed in 1473 ms
+d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.config.sources.URLConfigurationSource === No URLs will be polled as dynamic configuration sources.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.sources.URLConfigurationSource === To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.DynamicPropertyFactory === DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4c401302
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.s.j.server.impl.application.WebApplicationImpl === Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using JSON encoding codec LegacyJacksonJson
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using JSON decoding codec LegacyJacksonJson
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using XML encoding codec XStreamXml
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using XML decoding codec XStreamXml
+d{yyyy-MM-dd} === [restartedMain] === WARN  === o.s.c.netflix.archaius.ArchaiusAutoConfiguration === No spring.application.name found, defaulting to 'application'
+d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.config.sources.URLConfigurationSource === No URLs will be polled as dynamic configuration sources.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.sources.URLConfigurationSource === To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor === Initializing ExecutorService 'applicationTaskExecutor'
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.b.d.autoconfigure.OptionalLiveReloadServer === LiveReload server is running on port 35729
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.cloud.netflix.eureka.InstanceInfoFactory === Setting initial instance status as: STARTING
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Initializing Eureka in region us-east-1
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Client configured to neither register nor query for data.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Discovery Client initialized at timestamp 1581003841391 with initial instances count: 0
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.eureka.DefaultEurekaServerContext === Initializing ...
+d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.eureka.cluster.PeerEurekaNodes === The replica size seems to be empty. Check the route 53 DNS Registry
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Finished initializing remote region registries. All known remote regions: []
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.eureka.DefaultEurekaServerContext === Initialized
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.b.actuate.endpoint.web.EndpointLinksResolver === Exposing 2 endpoint(s) beneath base path '/actuator'
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.n.e.serviceregistry.EurekaServiceRegistry === Registering application UNKNOWN with eureka with status UP
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === Setting the eureka configuration..
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === Eureka data center value eureka.datacenter is not set, defaulting to default
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === Eureka environment value eureka.environment is not set, defaulting to test
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === isAws returned false
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === Initialized server context
+d{yyyy-MM-dd} === [Thread-17] === INFO  === c.n.eureka.registry.PeerAwareInstanceRegistryImpl === Got 1 instances from neighboring DS node
+d{yyyy-MM-dd} === [Thread-17] === INFO  === c.n.eureka.registry.PeerAwareInstanceRegistryImpl === Renew threshold is: 1
+d{yyyy-MM-dd} === [Thread-17] === INFO  === c.n.eureka.registry.PeerAwareInstanceRegistryImpl === Changing status to UP
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.n.e.s.EurekaServerInitializerConfiguration === Started Eureka Server
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat started on port(s): 7001 (http) with context path ''
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.n.e.s.EurekaAutoServiceRegistration === Updating port to 7001
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.charlie.ApplicationEureka === Started ApplicationEureka in 4.434 seconds (JVM running for 5.102)
+d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring DispatcherServlet 'dispatcherServlet'
+d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet === Initializing Servlet 'dispatcherServlet'
+d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet === Completed initialization in 7 ms
+d{yyyy-MM-dd} === [http-nio-7001-exec-2] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAYMENT/guli-8002 with status UP (replication=false)
+d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
+d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
+d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
+d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
+d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
+d{yyyy-MM-dd} === [http-nio-7001-exec-3] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAYMENT/guli-8002 with status DOWN (replication=false)
+d{yyyy-MM-dd} === [http-nio-7001-exec-5] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Cancelled instance GULI-PAYMENT/guli-8002 (replication=false)
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin === Application shutdown requested.
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.c.n.e.serviceregistry.EurekaServiceRegistry === Unregistering application UNKNOWN with eureka with status DOWN
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.eureka.DefaultEurekaServerContext === Shutting down ...
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.eureka.DefaultEurekaServerContext === Shut down
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor === Shutting down ExecutorService 'applicationTaskExecutor'
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.discovery.DiscoveryClient === Shutting down DiscoveryClient ...
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.discovery.DiscoveryClient === Completed shut down of DiscoveryClient
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === org.apache.catalina.core.StandardService === Stopping service [Tomcat]
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Destroying Spring FrameworkServlet 'dispatcherServlet'
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.charlie.ApplicationEureka === No active profile set, falling back to default profiles: default
+d{yyyy-MM-dd} === [restartedMain] === WARN  === o.springframework.boot.actuate.endpoint.EndpointId === Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.springframework.cloud.context.scope.GenericScope === BeanFactory id=203618ff-903e-3477-b8e5-b771090b31a5
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker === Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$355a81fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat initialized with port(s): 7001 (http)
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.apache.catalina.core.StandardService === Starting service [Tomcat]
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.apache.catalina.core.StandardEngine === Starting Servlet engine: [Apache Tomcat/9.0.21]
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring embedded WebApplicationContext
+d{yyyy-MM-dd} === [restartedMain] === INFO  === org.springframework.web.context.ContextLoader === Root WebApplicationContext: initialization completed in 1346 ms
+d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.config.sources.URLConfigurationSource === No URLs will be polled as dynamic configuration sources.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.sources.URLConfigurationSource === To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.DynamicPropertyFactory === DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1b7d3d2a
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.s.j.server.impl.application.WebApplicationImpl === Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using JSON encoding codec LegacyJacksonJson
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using JSON decoding codec LegacyJacksonJson
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using XML encoding codec XStreamXml
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.n.discovery.provider.DiscoveryJerseyProvider === Using XML decoding codec XStreamXml
+d{yyyy-MM-dd} === [restartedMain] === WARN  === o.s.c.netflix.archaius.ArchaiusAutoConfiguration === No spring.application.name found, defaulting to 'application'
+d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.config.sources.URLConfigurationSource === No URLs will be polled as dynamic configuration sources.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.config.sources.URLConfigurationSource === To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor === Initializing ExecutorService 'applicationTaskExecutor'
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.b.d.autoconfigure.OptionalLiveReloadServer === LiveReload server is running on port 35729
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.cloud.netflix.eureka.InstanceInfoFactory === Setting initial instance status as: STARTING
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Initializing Eureka in region us-east-1
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Client configured to neither register nor query for data.
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.discovery.DiscoveryClient === Discovery Client initialized at timestamp 1581004582899 with initial instances count: 0
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.eureka.DefaultEurekaServerContext === Initializing ...
+d{yyyy-MM-dd} === [restartedMain] === WARN  === com.netflix.eureka.cluster.PeerEurekaNodes === The replica size seems to be empty. Check the route 53 DNS Registry
+d{yyyy-MM-dd} === [restartedMain] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Finished initializing remote region registries. All known remote regions: []
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.netflix.eureka.DefaultEurekaServerContext === Initialized
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.b.actuate.endpoint.web.EndpointLinksResolver === Exposing 2 endpoint(s) beneath base path '/actuator'
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.n.e.serviceregistry.EurekaServiceRegistry === Registering application UNKNOWN with eureka with status UP
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === Setting the eureka configuration..
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === Eureka data center value eureka.datacenter is not set, defaulting to default
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === Eureka environment value eureka.environment is not set, defaulting to test
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === isAws returned false
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.netflix.eureka.server.EurekaServerBootstrap === Initialized server context
+d{yyyy-MM-dd} === [Thread-17] === INFO  === c.n.eureka.registry.PeerAwareInstanceRegistryImpl === Got 1 instances from neighboring DS node
+d{yyyy-MM-dd} === [Thread-17] === INFO  === c.n.eureka.registry.PeerAwareInstanceRegistryImpl === Renew threshold is: 1
+d{yyyy-MM-dd} === [Thread-17] === INFO  === c.n.eureka.registry.PeerAwareInstanceRegistryImpl === Changing status to UP
+d{yyyy-MM-dd} === [Thread-17] === INFO  === o.s.c.n.e.s.EurekaServerInitializerConfiguration === Started Eureka Server
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat started on port(s): 7001 (http) with context path ''
+d{yyyy-MM-dd} === [restartedMain] === INFO  === o.s.c.n.e.s.EurekaAutoServiceRegistration === Updating port to 7001
+d{yyyy-MM-dd} === [restartedMain] === INFO  === com.charlie.ApplicationEureka === Started ApplicationEureka in 4.094 seconds (JVM running for 4.664)
+d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring DispatcherServlet 'dispatcherServlet'
+d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet === Initializing Servlet 'dispatcherServlet'
+d{yyyy-MM-dd} === [http-nio-7001-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet === Completed initialization in 6 ms
+d{yyyy-MM-dd} === [http-nio-7001-exec-2] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAYMENT/guli-8002 with status UP (replication=false)
+d{yyyy-MM-dd} === [http-nio-7001-exec-5] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAYMENT/guli-8002 with status DOWN (replication=false)
+d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
+d{yyyy-MM-dd} === [http-nio-7001-exec-6] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Cancelled instance GULI-PAYMENT/guli-8002 (replication=false)
+d{yyyy-MM-dd} === [http-nio-7001-exec-10] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAYMENT/guli-8002 with status UP (replication=false)
+d{yyyy-MM-dd} === [http-nio-7001-exec-4] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAYMENT/guli-8002 with status DOWN (replication=false)
+d{yyyy-MM-dd} === [http-nio-7001-exec-3] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Cancelled instance GULI-PAYMENT/guli-8002 (replication=false)
+d{yyyy-MM-dd} === [http-nio-7001-exec-8] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAYMENT/guli-8002 with status UP (replication=false)
+d{yyyy-MM-dd} === [Eureka-EvictionTimer] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Running the evict task with compensationTime 0ms
+d{yyyy-MM-dd} === [http-nio-7001-exec-9] === INFO  === c.netflix.eureka.registry.AbstractInstanceRegistry === Registered instance GULI-PAYMENT/guli-8002 with status DOWN (replication=false)
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin === Application shutdown requested.
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.c.n.e.serviceregistry.EurekaServiceRegistry === Unregistering application UNKNOWN with eureka with status DOWN
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.eureka.DefaultEurekaServerContext === Shutting down ...
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.eureka.DefaultEurekaServerContext === Shut down
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor === Shutting down ExecutorService 'applicationTaskExecutor'
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.discovery.DiscoveryClient === Shutting down DiscoveryClient ...
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === com.netflix.discovery.DiscoveryClient === Completed shut down of DiscoveryClient
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === org.apache.catalina.core.StandardService === Stopping service [Tomcat]
+d{yyyy-MM-dd} === [RMI TCP Connection(2)-127.0.0.1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Destroying Spring FrameworkServlet 'dispatcherServlet'
