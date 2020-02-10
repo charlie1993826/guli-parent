@@ -15,7 +15,7 @@ import io.micrometer.core.instrument.util.StringUtils;
  * @author charlie
  *
  */
-@Configuration
+//@Configuration
 public class RedissonSingleConfig {
 
 	private static final String port = "6379";

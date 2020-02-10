@@ -10,8 +10,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import com.alibaba.druid.pool.DruidDataSource;
 
-@Configuration
-@PropertySource(value = "classpath:druid.properties")
+//@Configuration
+//@PropertySource(value = "classpath:druid.properties")
 public class DataSourceConfig {
 
 	private final static Logger log = LoggerFactory.getLogger(DataSourceConfig.class);
